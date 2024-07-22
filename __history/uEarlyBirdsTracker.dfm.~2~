@@ -1,0 +1,29 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 777
+  ClientWidth = 1192
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object PageControl1: TPageControl
+    Left = 8
+    Top = 8
+    Width = 1176
+    Height = 769
+    ActivePage = tsHandicap
+    TabOrder = 0
+    object tsHandicap: TTabSheet
+      Caption = 'Handicap'
+    end
+    object tsCompetition: TTabSheet
+      Caption = 'Competition'
+      ImageIndex = 1
+    end
+  end
+end
